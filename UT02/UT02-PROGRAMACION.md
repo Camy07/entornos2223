@@ -37,11 +37,3 @@ propietarios. Características.
 
 
 #### CALFICACIÓN:
-|--|--|--|
-|CONTENIDO| CUADERNO DE CLASE | CUESTIONARIO | EJERCICIOS DE CLASE | PRÁCTICAS |
-|1|  |  |  |  |
-|2|  |  |  |  |
-|3|  |  |  |  |
-|4|  |  |  |  |
-|5|  |  |  |  |
-|6|  |  |  |  |
