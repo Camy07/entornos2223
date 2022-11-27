@@ -41,7 +41,7 @@ Se pide calcular:
 ### EJERCICIO 3
 Dado el siguiente código:
 
-![[20221127202258.png]]
+![[_resources/20221127202258.png]]
 
 Se pide calcular:
 - Grafo de flujo asociado, indicando el número de nodos, aristas, regiones, nodos predicado.
