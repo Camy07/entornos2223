@@ -30,9 +30,10 @@ Se pide:
 ## EJERCICIO 2
 DADO El SIGUENTE DIAGRAMA DE FLUJO:
 
-![[20221127201624.png]]
+![](_resources/20221127201624.png)
 
 Se pide calcular:
+
 - Grafo de flujo asociado, indicando el número de nodos, aristas, regiones, nodos predicado.
 - Complejidad ciclomática
 - Conjunto de caminos independientes.
@@ -41,10 +42,11 @@ Se pide calcular:
 ### EJERCICIO 3
 Dado el siguiente código:
 
-![[_resources/20221127202258.png]]
+![](_resources/20221127202258.png)
 
 Se pide calcular:
+
 - Grafo de flujo asociado, indicando el número de nodos, aristas, regiones, nodos predicado.
-- Complejidad ciclomática
+- Complejidad ciclomática.
 - Conjunto de caminos independientes.
 - Casos de prueba.
