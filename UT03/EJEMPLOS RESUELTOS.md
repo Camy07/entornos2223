@@ -70,15 +70,15 @@ FinAlgoritmo
 ### A) GRAFO ASOCIADO
 
 El diagrama de flujo obtenido es el siguiente:
-![[ejemplo02_diagrama.png]]
+![](_resources/ejemplo02_diagrama.png)
 
 Con el diagrama de flujo dibujado , creamos los nodos:
 
-![[ejemplo02_nodos.jpg]]
+![](_resources/ejemplo02_nodos.jpg)
 
 Y el grafo asociado es el siguiente:
 (asumimos que el bucle "for" se va a ejecutar al menos una vez)
-![[ejemplo02_grafo.png]]
+![](_resources/ejemplo02_grafo.png)
 ### COMPLEJIDAD CICLOMÁTICA
 
 Aplicando la fórmula, podemos calcular la complejidad del grafo:
