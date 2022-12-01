@@ -113,3 +113,42 @@ La selección de los valores se ha elegido en base a la siguiente justificación
 - Para el camino A, solo guardamos números impares
 - Para el camino B, solo guardamos números pares
 - Para el camino C y D, guardamos números impares y pares
+
+
+Realizar un algoritmo que permita leer dos valores distintos, y luego determinar cual de los dos valores es el mayor y escribirlo.
+
+### A) GRAFO DE FLUJO
+
+El organigrama sería el siguiente
+
+![1aad90fbdac8fc50693d65a1213f5da5.png](_resources/1aad90fbdac8fc50693d65a1213f5da5.png)
+
+Ahora creamos el grafo realcinando los bloques de código con los nodos:
+
+![ejemplo_03.png](_resources/ejemplo_03.png)
+
+### B) COMPLEJIDAD CICLOMÁTICA
+
+Usando las fórmulas obtenemos:
+- V(G) = nº de zonas = 3
+- V(G) = aristas - nodos + 2 = 11 - 10 + 2 = 3
+- V(G) = numero de nodos predicados (5-6)  + 1 = 4+1  = 5
+
+### C) CAMINOS POSIBLES
+
+| CAMINO | NODOS RECORRIDOS |
+|:--:|:--:|
+| A | 1-2-3-4-5-6-7-9-10 |
+| B | 1-2-3-4-5-6-8-9-10 |
+| C | 1-2-3-4-5-3-4-5-.... |
+Aquí hay que tener en cuenta que el bucle inicial no es independiente del if de abajo, y por eso el hacer el bucle para pedir los números no influirá a la hora de elegir un camino de los de abajo.
+
+### C) CASOS DE USO Y JUSTIFICACIÓN
+
+| CAMINO | RANGO DE VALORES | VALOR ELEGIDO |
+|:--:|:--:|:--:|
+| A | B>A |  A=7 , B=9 |
+| B | A>B |  A=6 , B=4 |
+| C | A=B |  A=7 , B=7 |
+
+Se podría pensar que hay cuatro caminos, pero el primero es una repetición, que es idenpendiente de los valores de abajo, por eso los caminos que salen de la repetición del bucle se pueden considerar como uno, puesto que ya los hemos recorrido anteriormente en los caminos A y B

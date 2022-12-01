@@ -1,52 +1,25 @@
 ## EJERCICIO 1
+Dado el algoritmo que carga un vector con 10 números, a continuación pide por pantalla un número y muestra los elementos del vector mayores a ese:
 
-Dado el siguiente código:
-
-```code
-Algoritmo sin_titulo
-J = 2, S =0
-Leer N
-Mientras J<= N / 2 hacer 
-  Si N / J =0
-    S=S+1
-	 J=J+1
-  Fin_Si
-Fin_Mientras
-Si S = 0 Entonces
-  Escribir N “es primo” 12. 
-Sino
-  Escribir N “no es primo” 14. 
-Fin_Si
-Fin
+```
+Algoritmo mayores_array
+    Dimension vector[10]
+    Para fila = 1 Hasta 10 Con Paso 1 Hacer
+        Escribir "VALOR ",fila,"/10 : "
+        Leer vector[fila]
+    FinPara
+    Escribir " "
+    Escribir "ESCRIBE UN NÚMERO : "
+    Leer num
+    Escribir " "
+    Escribir Sin Saltar "Los elementos mayores que ",num, " son : "
+    Para fila = 1 Hasta 10 Con Paso 1 Hacer
+        Si (vector[fila] > num) Entonces
+            Escribir Sin Saltar vector[fila], ", "
+        FinSi		
+    FinPara
+    Escribir " "
+FinAlgoritmo
 ```
 
-Se pide:
-- Dibujar el grafo asociado.
-- Calcular la complejidad del grafo asociado.
-- Identificar los caminos posibles.
-- Definir los casos de uso y justificar la selección de valores.
-
-
-## EJERCICIO 2
-DADO El SIGUENTE DIAGRAMA DE FLUJO:
-
-![](_resources/20221127201624.png)
-
-Se pide calcular:
-
-- Grafo de flujo asociado, indicando el número de nodos, aristas, regiones, nodos predicado.
-- Complejidad ciclomática
-- Conjunto de caminos independientes.
-- Casos de prueba.
-
-### EJERCICIO 3
-Dado el siguiente código:
-
-![](_resources/20221127202258.png)
-
-Se pide calcular:
-
-- Grafo de flujo asociado, indicando el número de nodos, aristas, regiones, nodos predicado.
-- Complejidad ciclomática.
-- Conjunto de caminos independientes.
-- Casos de prueba.
+Escribe su grafo de flujo, calcula su complejidad ciclomática y escribe los caminos posibles y los casos de prueba, justificando la elección de valores.
