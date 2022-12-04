@@ -20,10 +20,10 @@ Existen diferentes tipos de pruebas que se realizan en el sistema. Según el mom
 
 > Tabla: Descripción de los tipos de prueba del software.
 
-| Tipos de pruebas | Fases de realización | Descripción
+| Tipos de pruebas | Fases de realización | Descripción |
 | -- | -- | -- |
 | Unitarias | Durante la construcción del sistema | Prueban el diseño y el comportamiento de cada uno de los componentes del sistema una vez construidos. | 
-Integración | Durante la construcción del sistema | Comprueban la correcta unión de los componentes entre sí a través de sus interfaces, y si cumplen con la funcionalidad establecida. |
+| Integración | Durante la construcción del sistema | Comprueban la correcta unión de los componentes entre sí a través de sus interfaces, y si cumplen con la funcionalidad establecida. |
 | Sistema | Después de la construcción del sistema | Prueban a fondo el sistema, comprobando su funcionalidad e integridad globalmente, en un entorno lo más parecido posible al entorno final de producción. |
 | Implantación | Durante la implantación en el entorno de producción | Comprueba el correcto funcionamiento del sistema dentro del entorno real de producción. |
 | Validación | Después de la implantación en el entorno de producción | Verifican que el sistema cumple con todos los requisitos indicados y permite que los usuarios del sistema den el visto bueno definitivo. |

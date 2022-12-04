@@ -84,7 +84,7 @@ Y el grafo asociado es el siguiente:
 Aplicando la fórmula, podemos calcular la complejidad del grafo:
 
 - V(G) = Nº de regiones = 4
-- V(G) = Nº Nodos predicado + 1 = 3 + 1= 4 (Los nodos predicado son el 4, el 6 y el 7)
+- V(G) = Nº Nodos predicado + 1 = 3 + 1= 4 (Los nodos predicado son el 4, el 7 y el 11)
 - V(G) = (Aristas - nodos) + 2 = (14-12) + 2 = 2 + 2 = 4
 
 ### CAMINOS POSIBLES
