@@ -84,6 +84,7 @@ else return true;
 ``` 
 
 En un documento aparte se deberá indicar las modifiaciones realizadas siguiento el siguiente modelo:
+
 **1. RENOMBRADO**
 - La variable dia se ha renombrado a diaMes.
 - ...
