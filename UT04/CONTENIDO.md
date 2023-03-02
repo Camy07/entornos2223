@@ -1,3 +1,5 @@
+## 1. REFACTORIZACIÓN
+
 Una de las destrezas básicas para convertirse en un buen programador consiste en saber optimizar código. Inicialmente, cuando somos profesores novatos, hacemos los programas de la única forma que sabemos, pero, cuando adquirimos experiencia y somos capaces de generar varias, hay que elegir entre todas las posibles soluciones la más eficiente, efectiva, ... En resumen, la óptima. De eso se trata la optimización.
 
 Técnicamente, podemos decir que optimización o refactorización es el proceso de cambiar la estructura interna de un software sin alterar su comportamiento externo y se realiza para mejorar la calidad del código, aumentar su legibilidad y mantenibilidad.
@@ -9,7 +11,7 @@ Algunas de las características más importantes son:
 3. Es importante realizar pruebas después de cualquier refactorización para asegurarse de que el comportamiento del software sigue siendo el esperado.
 4. La refactorización puede ser una parte valiosa del ciclo de desarrollo de software para asegurar un código limpio y eficiente.
 
-### Patrones de refactorización
+### 1.1. Patrones de refactorización
 
 1. Son soluciones comunes y probadas a problemas específicos en el código.
 2. Ayudan a mejorar la estructura y calidad del código de forma sistemática y repetitiva.
@@ -29,22 +31,7 @@ En el proceso de refactorización, se siguen una serie de patrones preestablecid
 - Cambiar los parámetros del proyecto: nos permite añadir nuevos parámetros a un método y cambiar los modificadores de acceso.
 
 
-
-
-## CONTROL DE VERSIONES
-
-Otro de los elementos que contribuye al desarrollo óptimo del software es el uso de un SCV (Sistema de Control de Versiones), un sistema que permite gestionar y mantener versiones de archivos y proyectos de software. Utilizar un sistema de control de versiones es una buena práctica en el  desarrollo de software, ya que facilita la colaboración y el seguimiento de los cambios en el proyecto.
-
-Las ventajas del uso de CVS (sus siglas en inglés) son:
-
-- Permite a varios desarrolladores trabajar juntos en un mismo proyecto, manteniendo un historial de cambios y versiones.
-- Ofrece la posibilidad de revertir a versiones previas, comparar y fusionar versiones, y hacer seguimiento de los cambios realizados por cada usuario.
-- CVS se ejecuta en un servidor central y los desarrolladores pueden acceder y descargar versiones a través de un cliente.
-- Existen diferentes tipos de CVS, incluyendo Subversion (SVN), Git y Mercurial.
-
-
-
-### Documentación
+## 2. DOCUMENTACIÓN
 
 Por último, la documentación. Ningún desarrollador puede considerarse bueno si no le da la importancia que corresponde a la documentación. Recuérdese que un programa poco o mal documentado es un mal producto.
 
@@ -85,6 +72,7 @@ Los tags mas comunes son:
 @serial | Describe el significado del campo y sus valores aceptables. Otras formas válidas son @serialField y @serialData | campo_descripcion | 
 @deprecated | Indica que el método o clase es antigua y que no se recomienda su uso porque posiblemente desaparecerá en versiones posteriores.| descripción | 
 
+### 2.2. UN EJMPLO DE CLASE DOCUMENTADA.
 Un ejemplo de documentación podría ser el siguiente:
 
 ```java
@@ -161,6 +149,16 @@ Utilizar un IDE con la funcionalidad integrada es, por supuesto, más fácil y g
 [REFERENCIA OFICIAL](https://docs.oracle.com/en/java/javase/11/tools/javadoc.html)
 
 
+## CONTROL DE VERSIONES
+
+Otro de los elementos que contribuye al desarrollo óptimo del software es el uso de un SCV (Sistema de Control de Versiones), un sistema que permite gestionar y mantener versiones de archivos y proyectos de software. Utilizar un sistema de control de versiones es una buena práctica en el  desarrollo de software, ya que facilita la colaboración y el seguimiento de los cambios en el proyecto.
+
+Las ventajas del uso de CVS (sus siglas en inglés) son:
+
+- Permite a varios desarrolladores trabajar juntos en un mismo proyecto, manteniendo un historial de cambios y versiones.
+- Ofrece la posibilidad de revertir a versiones previas, comparar y fusionar versiones, y hacer seguimiento de los cambios realizados por cada usuario.
+- CVS se ejecuta en un servidor central y los desarrolladores pueden acceder y descargar versiones a través de un cliente.
+- Existen diferentes tipos de CVS, incluyendo Subversion (SVN), Git y Mercurial.
 
 
 
