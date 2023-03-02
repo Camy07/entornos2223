@@ -22,14 +22,12 @@ Algunas de las características más importantes son:
 
 En el proceso de refactorización, se siguen una serie de patrones preestablecidos, los más comunes son los siguientes:
 
-- Renombrado (rename): este patrón nos indica que debemos cambiar el nombre de un paquete, clase, método o campo, por un nombre más significativo.
-- Sustituir bloques de código por un método: este patrón nos aconseja sustituir un bloque de código, por un método. De esta forma, cada vez que queramos acceder a ese bloque de código, bastaría con invocar al método.
-- Campos encapsulados: se aconseja crear métodos getter y setter, (de asignación y de consulta) para cada campo que se defina en una clase. Cuando sea necesario acceder o modificar el valor de un campo, basta con invocar al método getter o setter según convenga.
-- Mover la clase: si es necesario, se puede mover una clase de un paquete a otro, o de un proyecto a otro. La idea es no duplicar código que ya se haya generado. Esto impone la actualización en todo el código fuente de las referencias a la clase en su nueva localización.
-- Borrado seguro: se debe comprobar, que cuando un elemento del código ya no es necesario, se han borrado todas la referencias a él que había en cualquier parte del proyecto.
+- **Renombrado (rename)**: este patrón nos indica que debemos cambiar el nombre de un paquete, clase, método o campo, por un nombre más significativo.
+- **Sustituir bloques de código por un método**: este patrón nos aconseja sustituir un bloque de código, por un método. De esta forma, cada vez que queramos acceder a ese bloque de código, bastaría con invocar al método.
+- **Campos encapsulados**: se aconseja crear métodos getter y setter, (de asignación y de consulta) para cada campo que se defina en una clase. Cuando sea necesario acceder o modificar el valor de un campo, basta con invocar al método getter o setter según convenga.
+- **Organizar las clases por paquetes (packages)**: si es necesario, se puede mover una clase de un paquete a otro, o de un proyecto a otro. La idea es no duplicar código que ya se haya generado. Esto impone la actualización en todo el código fuente de las referencias a la clase en su nueva localización.
 - Cambiar los parámetros del proyecto: nos permite añadir nuevos parámetros a un método y cambiar los modificadores de acceso.
-- Extraer la interfaz: crea un nueva interfaz de los métodos public non-static seleccionados en una clase o interfaz.
-- Mover del interior a otro nivel: consiste en mover una clase interna a un nivel superior en la jerarquía.
+
 
 
 
