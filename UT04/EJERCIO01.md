@@ -82,3 +82,17 @@ else return true;
 
 }
 ``` 
+
+En un documento aparte se deberá indicar las modifiaciones realizadas siguiento el siguiente modelo:
+**1. RENOMBRADO**
+- La variable dia se ha renombrado a diaMes.
+- ...
+
+**2. CREACIÓN DE MÉTODOS**
+- Se ha agrupado el codigo de las lineas 12-17 a un nuevo método llamado .....
+
+**3. ENCAPSULAMIENTO**
+- Las variables dia y anio se han hecho privadas y se han creado los getter y setter correspondientes.
+
+**4. AGRUPAMIENTO DE CLASES**
+- Se ha creado el package "fechas" para guardar la clase
