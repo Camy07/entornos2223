@@ -48,14 +48,13 @@ Las ventajas del uso de CVS (sus siglas en inglés) son:
 
 Por último, la documentación. Ningún desarrollador puede considerarse bueno si no le da la importancia que corresponde a la documentación. Recuérdese que un programa poco o mal documentado es un mal producto.
 
+Antes de entrar en detalles, algunas frases a tener en cuenta:
 
+> "If your program isn't worth documenting, it probably isn't worth running" (Si su programa no merece la pena documentarlo, probablemente no merece la pena ejecutarlo). J. Nagler. 1995.
 
-```java
-quitarFinal(n)
-for (int i=0; i<n; i++) {
- elnumero = elnumero/10;   
-}
-```
+> "Do not document bad code - rewrite it" (No documentar código malo—reescribirlo). R. Caron. 2000.
+
+> "Write the documentation before you write the code." (Escribe la documentación antes de escribir el código). S.W. Ambler. 2000.
 
 
 
