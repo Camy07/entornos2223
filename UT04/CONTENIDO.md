@@ -11,6 +11,15 @@ Algunas de las características más importantes son:
 3. Es importante realizar pruebas después de cualquier refactorización para asegurarse de que el comportamiento del software sigue siendo el esperado.
 4. La refactorización puede ser una parte valiosa del ciclo de desarrollo de software para asegurar un código limpio y eficiente.
 
+**¿Cuándo refactorizar?**
+
+Algunos autores han identificado algunos indicadores que nos van a decir que nuestro código es susceptible de ser refactorizado. Algunos de los más importantes son los siguientes:
+
+- **Código duplicado (Duplicated code)**. Es la principal razón para refactorizar. Si se detecta el mismo código en más de un lugar, se debe buscar la forma de extraerlo y unificarlo.
+- **Métodos muy largos (Long method)**. Cuanto más largo es un método más dificil es de entender. Un método muy largo normalmente está realizando tareas que deberían ser responsabilidad de otros. Se deben identificar y descomponer el método en otros más pequeños. En la programación orientada a objetos cuanto más corto es un método más fácil es reutilizarlo.
+- **Clases muy grandes (Large class)**. Si una clase intenta resolver muchos problemas, tendremos una clase con demasiados métodos, atributos o incluso instancias. La clase está asumiendo demasiadas responsabilidades. Hay que intentar hacer clases más pequeñas, de forma que cada una trate con un conjunto pequeño de responsabilidades bien delimitadas.
+- **Lista de parámetros extensa (Long parameter list)**. En la programación orientada a objetos no se suelen pasar muchos parámetros a los métodos, sino solo aquellos mínimamente necesarios para que el objeto involucrado consiga lo necesario. Tener demasiados parámetros puede estar indicando un problema de encapsulación de datos o la necesidad de crear una clase de objetos a partir de varios de esos parámetros, y pasar ese objeto como argumento en vez de todos los parámetros. Especialmente si esos parámetros suelen tener que ver unos con otros y suelen ir juntos siempre.
+
 ### 1.1. Patrones de refactorización
 
 1. Son soluciones comunes y probadas a problemas específicos en el código.
