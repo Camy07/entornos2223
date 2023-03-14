@@ -1,5 +1,9 @@
 # UT05 - CONTROL DE VERSIONES CON GIT
 
+### RECURSOS:
+
+- [APUNTES CUQUIS](https://drive.google.com/file/d/1sHgKrrea1-HpityOEYqFLjRdaum85CnW/view)
+
 ### DEFINICIONES:
 
 Un control de versiones es un sistema que registra los cambios realizados en un archivo o conjunto de archivos a lo largo del tiempo, de modo que puedas recuperar versiones específicas
