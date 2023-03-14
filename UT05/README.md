@@ -1,10 +1,15 @@
-## UT05 - CONTROL DE VERSIONES CON GIT
+# UT05 - CONTROL DE VERSIONES CON GIT
 
-DEFINICIONES:
+### DEFINICIONES:
+
 Un control de versiones es un sistema que registra los cambios realizados en un archivo o conjunto de archivos a lo largo del tiempo, de modo que puedas recuperar versiones específicas
 más adelante. 
 
 Git es un sistema de control de versiones distribuido, utilizado principalmente en el desarrollo de software para rastrear los cambios realizados en el código fuente. Fue creado por Linus Torvalds en 2005 para el desarrollo del kernel de Linux. Con Git, los desarrolladores pueden colaborar en proyectos de manera más eficiente y segura.
+
+### INSTALACIÓN DE GIT
+
+Sigue el [siguiente enlace](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) para ver su instalación.
 
 Comandos básicos de Git:
 
