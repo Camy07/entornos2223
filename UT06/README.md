@@ -7,3 +7,8 @@
 ### EJERCICIO
 
 Desarrollar un sistema de información para gestionar la venta de entradas online para distintos tipos de espectáculos, como entradas de cine, partidos de fútbol y otros deportes, conciertos, festivales, etc..
+
+## 2 - CASOS DE USO
+
+
+## 3 - DIAGRAMAS DE ACTIVIDAD
