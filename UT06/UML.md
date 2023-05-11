@@ -45,8 +45,9 @@ Cuando existe un vínculo entre clases puedes indicarlo de varias maneras.
 - **Agregación**: Cuando una clase contiene varias instancias de otra clase, pero esas instancias siguen existiendo aunque se elimine la clase contenedora, eso es agregación. Utilice un rombo hueco para indicar la clase contenedora.
 - **Composición**: Es similar a la agregación, pero cuando se elimina la clase contenedora, también se eliminan las instancias de las otras clases. La clase contenedora está "compuesta" por instancias de las otras clases. Utilice un rombo sólido para indicar la clase contenedora.
 - **Multiplicidad**: Donde se indica cuántas instancias de cada clase están relacionadas con la otra clase. Puede ser cero o más (0..*), uno a uno (1..1), o 1 a un número específico (1..5).
-Existen muchas otras formas de indicar asociaciones, como las clases de asociación, las asociaciones reflexivas, los paquetes, etc. Para una visión completa del modelado de clases en UML, IBM ha proporcionado un gran tutorial.
-![03fa5d0e325ca0445e258be820d2c7d0.png](../../../_resources/03fa5d0e325ca0445e258be820d2c7d0.png)
+Existen muchas otras formas de indicar asociaciones, como las clases de asociación, las asociaciones reflexivas, los paquetes, etc.
+
+![03fa5d0e325ca0445e258be820d2c7d0.png](_resources/03fa5d0e325ca0445e258be820d2c7d0.png)
 
 
 ### FUENTES:
