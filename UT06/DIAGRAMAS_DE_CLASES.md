@@ -1,4 +1,4 @@
-# UML
+# DIAGRAMAS DE CLASES CON UML
 
 El Lenguaje Unificado de Modelado o notación UML es probablemente la representación visual de programas más conocida y utilizada habitualmente en el desarrollo de software. Existe una amplia gama de diagramas que le ayudarán a especificar sus datos y procesos antes de empezar a programar. Le ayudan a aclarar requisitos y limitaciones, aceleran la implementación, proporcionan una guía para realizar pruebas exhaustivas y evitan que se cuelen errores a lo largo de todo el proceso de desarrollo de software.
 
