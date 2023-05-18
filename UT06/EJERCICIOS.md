@@ -13,4 +13,4 @@ Vamos a diseñar una aplicación web para la gestión de una biblioteca con los 
 - Los bibliotecarios pueden actualizar/renovar el stock de libros, para lo cual tendrán que hacer un pedido a través de la aplicación
 
 ### DIAGRAMA DE CASOS DE USO:
-![UT06/_resources/ejercicio1.png](UT06/_resources/ejercicio1.png)
+![_resources/ejercicio1.png](_resources/ejercicio1.png)
