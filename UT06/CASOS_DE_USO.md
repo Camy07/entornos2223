@@ -18,11 +18,11 @@ Para garantizar que el diagrama de casos de uso sea comprensible para todo el mu
 
 La relación entre estos elementos se representa con unas líneas de conexión llamadas asociaciones. Una línea recta entre el actor y el caso de uso evidencia que el actor y el caso de uso descrito en la elipse están relacionados. Una línea discontinua establece una relación entre diferentes casos de uso. Como hay dos tipos diferentes de asociación entre casos de uso, a las líneas se les añade una palabra clave, denominada “estereotipo” en UML, que se pone entre dos pares de paréntesis angulares. La relación de dependencia entre los casos de uso se representa con la punta de una flecha. Se distingue entre estos dos estereotipos:
 
-- Asociación `<include>`: el caso de uso en el cual comienza la línea discontinua se relaciona con un segundo caso de uso señalado por la punta de la flecha.
-- Asociación `<extend>`: el caso de uso en el cual comienza la línea discontinua puede extenderse al caso de uso señalado por la punta de la flecha bajo ciertas condiciones, que no han de cumplirse necesariamente en todos los casos.
+- **Include**: Permite indicar que un caso de uso utiliza la funcionalidad de otro (siempre lo hace)
+- **Extends**: Permite indicar que un caso de uso puede extender la funcionalidad de otro (no necesariamente)
+- **Generalization**: Permite indicar que un caso es una variante de otro (“herencia”)
 
 En el ejemplo práctico que se ve a continuación -una aplicación de seguimiento de hábitos- hay dos actores externos, un usuario y un entrenador.
-
 
 ![DIAGRAMA](_resources/UseCase-HabitTrackingApp.png)
 
