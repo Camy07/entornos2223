@@ -12,3 +12,6 @@ empresa, empleados y clientes. Los requisitos son los siguientes:
 - Para todas las clases crearemos dos métodos, uno para asignar datos a los atributos (como si fuese el constructor), este método tendrá tantos parámetros como atributos, y otro que se llame obtener que devolverá un objeto de la misma clase.
 
 Realizar el diagrama de casos de uso que modelice las relaciones.
+
+DIAGRAMA DE CLASES:
+![https://github.com/joaquinalbares/entornos2223/blob/master/UT06/_resources/ejercicio_2.png](https://github.com/joaquinalbares/entornos2223/blob/master/UT06/_resources/ejercicio_2.png)
