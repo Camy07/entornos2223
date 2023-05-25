@@ -15,3 +15,5 @@ Realizar el diagrama de casos de uso que modelice las relaciones.
 
 DIAGRAMA DE CLASES:
 ![https://github.com/joaquinalbares/entornos2223/blob/master/UT06/_resources/ejercicio_2.png](https://github.com/joaquinalbares/entornos2223/blob/master/UT06/_resources/ejercicio_2.png)
+
+![https://github.com/joaquinalbares/entornos2223/blob/master/UT06/_resources/casos_de_uso.png](https://github.com/joaquinalbares/entornos2223/blob/master/UT06/_resources/casos_de_uso.png)
